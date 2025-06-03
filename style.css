@@ -16,19 +16,14 @@ body {
   border-bottom: 1px solid #222;
 }
 
-.back-btn {
-  font-size: 20px;
+.back-btn, .search-btn {
   color: #0a84ff;
+  font-size: 20px;
+  text-decoration: none;
 }
 
 .top-title {
   font-weight: 600;
-}
-
-.search-btn {
-  color: #0a84ff;
-  font-size: 20px;
-  text-decoration: none;
 }
 
 .app-detail {
