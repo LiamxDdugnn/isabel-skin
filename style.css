@@ -1,0 +1,147 @@
+body {
+  margin: 0;
+  background: #000;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  color: white;
+}
+
+.top-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #000;
+  color: white;
+  padding: 12px 16px;
+  font-size: 18px;
+  border-bottom: 1px solid #222;
+}
+
+.back-btn {
+  font-size: 20px;
+  color: #0a84ff;
+}
+
+.top-title {
+  font-weight: 600;
+}
+
+.search-btn {
+  color: #0a84ff;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.app-detail {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px 16px;
+}
+
+.app-header {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.app-icon {
+  width: 100px;
+  height: 100px;
+  border-radius: 22px;
+  margin-right: 12px;
+}
+
+.app-info h1 {
+  font-size: 20px;
+  margin: 0;
+  font-weight: 600;
+}
+
+.subtitle {
+  font-size: 14px;
+  color: #aaa;
+  margin-top: 4px;
+}
+
+.app-action {
+  margin-left: auto;
+  text-align: center;
+}
+
+.btn-get {
+  background: #2c2c2e;
+  color: #0a84ff;
+  padding: 8px 20px;
+  font-weight: 600;
+  font-size: 14px;
+  border-radius: 999px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.note {
+  font-size: 11px;
+  color: #aaa;
+  margin-top: 4px;
+  display: block;
+}
+
+.app-share {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  font-size: 20px;
+  color: #0a84ff;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-between;
+  margin: 24px 0;
+  text-align: center;
+}
+
+.stat-block .big {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.stat-block .stars {
+  font-size: 14px;
+  color: #fcd34d;
+}
+
+.stat-block .label {
+  font-size: 12px;
+  color: #aaa;
+}
+
+.screenshots {
+  display: flex;
+  overflow-x: auto;
+  gap: 12px;
+  margin: 16px 0;
+}
+
+.screenshots img {
+  height: 200px;
+  border-radius: 12px;
+  flex-shrink: 0;
+}
+
+.description {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #eee;
+  margin-top: 16px;
+}
+
+.dev {
+  margin-top: 16px;
+  font-weight: 600;
+}
+
+.dev-sub {
+  font-weight: normal;
+  font-size: 13px;
+  color: #aaa;
+}
